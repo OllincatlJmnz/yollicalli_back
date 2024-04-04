@@ -17,7 +17,7 @@ public class YollicalliApplication {
 	    @Override
 	    public void addCorsMappings(CorsRegistry registry) {
 	        registry.addMapping("/**")
-	                .allowedOrigins("https://dhyanaixchelverjanvargas.github.io/Proyecto-YolliCalli") // Permitir solicitudes desde cualquier origen
+	                .allowedOrigins("*") // Permitir solicitudes desde cualquier origen
 	                .allowedMethods("GET", "POST", "PUT", "DELETE") // Permitir estos métodos HTTP
 	                .allowedHeaders("*"); // Permitir todos los encabezados
 	    }
