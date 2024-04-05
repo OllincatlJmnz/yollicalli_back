@@ -19,7 +19,7 @@ public class YollicalliApplication {
 			@Override
 			public void addCorsMappings(CorsRegistry registry) {
 				registry.addMapping("/**")
-						.allowedOrigins("https://yollicalli-back.onrender.com")
+						.allowedOrigins("https://dhyanaixchelverjanvargas.github.io/Proyecto-YolliCalli/","https://yollicalli-back.onrender.com/")
 						.allowedMethods("GET", "POST", "PUT", "DELETE")
 						.allowedHeaders("*");
 			}
