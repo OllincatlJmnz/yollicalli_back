@@ -3,7 +3,6 @@ package proyecto.yollicalli.controller;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
@@ -13,7 +12,7 @@ import proyecto.yollicalli.dto.ProductosResponse;
 import proyecto.yollicalli.model.Producto;
 import proyecto.yollicalli.service.ProductoService;
 
-@CrossOrigin(origins="https://dhyanaixchelverjanvargas.github.io")
+
 @RestController
 @RequestMapping(path = "/tienda")
 public class TiendaController {

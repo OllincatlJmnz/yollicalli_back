@@ -3,7 +3,6 @@ package proyecto.yollicalli.controller;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -17,7 +16,6 @@ import proyecto.yollicalli.dto.CambiarContrasenia;
 import proyecto.yollicalli.model.Usuario;
 import proyecto.yollicalli.service.UserService;
 
-@CrossOrigin(origins="https://dhyanaixchelverjanvargas.github.io")
 @RestController
 @RequestMapping(path="/api/usuarios/") // Cambio de users a usuarios
 public class UserController {

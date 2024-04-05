@@ -4,7 +4,6 @@ import javax.servlet.ServletException;
 
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -17,7 +16,7 @@ import proyecto.yollicalli.model.Usuario;
 import proyecto.yollicalli.service.UserService;
 import proyecto.yollicalli.config.JwtFilter;
 import proyecto.yollicalli.dto.Token;
-@CrossOrigin(origins="https://dhyanaixchelverjanvargas.github.io/")
+
 @RestController
 @RequestMapping(path="/api/login/")
 public class LoginController {
