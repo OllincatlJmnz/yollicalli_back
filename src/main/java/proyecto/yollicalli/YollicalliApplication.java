@@ -18,8 +18,8 @@ public class YollicalliApplication {
 		return new WebMvcConfigurer() {
 			@Override
 			public void addCorsMappings(CorsRegistry registry) {
-				registry.addMapping("/Proyecto-YolliCalli/**")
-						.allowedOrigins("https://dhyanaixchelverjanvargas.github.io")
+				registry.addMapping("/**")
+						.allowedOrigins("https://dhyanaixchelverjanvargas.github.io/Proyecto-YolliCalli/**")
 						.allowedMethods("GET", "POST", "PUT", "DELETE")
 						.allowedHeaders("*");
 			}
