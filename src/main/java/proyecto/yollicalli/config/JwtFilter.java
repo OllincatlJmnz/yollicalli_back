@@ -31,7 +31,7 @@ public class JwtFilter extends GenericFilterBean  {
 				(! httpServletRequest.getRequestURI().contains("/api/users/") )  )  
 				||
 				( ("GET".equals(httpServletRequest.getMethod())) && 
-						(! httpServletRequest.getRequestURI().contains("/api/products/") )  ) ||
+						(! httpServletRequest.getRequestURI().contains("/api/product/") )  ) ||
 			  ("PUT".equals(httpServletRequest.getMethod())) ||
 			  ("DELETE".equals(httpServletRequest.getMethod()))
 			) { 
