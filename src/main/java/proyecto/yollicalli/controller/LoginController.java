@@ -17,7 +17,7 @@ import proyecto.yollicalli.model.Usuario;
 import proyecto.yollicalli.service.UserService;
 import proyecto.yollicalli.config.JwtFilter;
 import proyecto.yollicalli.dto.Token;
-@CrossOrigin(origins="https://dhyanaixchelverjanvargas.github.io/Proyecto-YolliCalli/")
+@CrossOrigin(origins="https://dhyanaixchelverjanvargas.github.io/")
 @RestController
 @RequestMapping(path="/api/login/")
 public class LoginController {

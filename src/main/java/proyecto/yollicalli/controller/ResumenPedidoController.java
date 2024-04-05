@@ -17,7 +17,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-@CrossOrigin(origins="https://dhyanaixchelverjanvargas.github.io/Proyecto-YolliCalli/")
+@CrossOrigin(origins="https://dhyanaixchelverjanvargas.github.io")
 @RestController
 @RequestMapping(path="/api/resumen_pedido/")
 public class ResumenPedidoController {

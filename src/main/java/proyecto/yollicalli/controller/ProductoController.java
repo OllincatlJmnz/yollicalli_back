@@ -16,7 +16,7 @@ import org.springframework.web.bind.annotation.RestController;
 import proyecto.yollicalli.model.Producto;
 import proyecto.yollicalli.service.ProductoService;
 
-@CrossOrigin(origins="https://dhyanaixchelverjanvargas.github.io/Proyecto-YolliCalli/")
+@CrossOrigin(origins="https://dhyanaixchelverjanvargas.github.io")
 @RestController
 @RequestMapping(path="/api/products/")
 public class ProductoController {

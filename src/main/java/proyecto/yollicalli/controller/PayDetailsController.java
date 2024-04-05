@@ -16,7 +16,7 @@ import org.springframework.web.bind.annotation.RestController;
 import proyecto.yollicalli.model.PayDetails;
 import proyecto.yollicalli.service.PayDetailsService;
 
-@CrossOrigin(origins="https://dhyanaixchelverjanvargas.github.io/Proyecto-YolliCalli/")
+@CrossOrigin(origins="https://dhyanaixchelverjanvargas.github.io")
 @RestController
 @RequestMapping(path="/api/detallesDePago")
 public class PayDetailsController {

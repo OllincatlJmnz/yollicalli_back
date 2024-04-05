@@ -13,7 +13,7 @@ import proyecto.yollicalli.dto.ProductosResponse;
 import proyecto.yollicalli.model.Producto;
 import proyecto.yollicalli.service.ProductoService;
 
-@CrossOrigin(origins="https://dhyanaixchelverjanvargas.github.io/Proyecto-YolliCalli/")
+@CrossOrigin(origins="https://dhyanaixchelverjanvargas.github.io")
 @RestController
 @RequestMapping(path = "/tienda")
 public class TiendaController {

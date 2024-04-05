@@ -18,7 +18,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import proyecto.yollicalli.model.Direccion;
 import proyecto.yollicalli.service.DireccionService;
-@CrossOrigin(origins="https://dhyanaixchelverjanvargas.github.io/Proyecto-YolliCalli/")
+@CrossOrigin(origins="https://dhyanaixchelverjanvargas.github.io")
 @RestController
 @RequestMapping (path="/api/direcciones/")
 public class DireccionController {

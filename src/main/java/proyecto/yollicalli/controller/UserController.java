@@ -17,7 +17,7 @@ import proyecto.yollicalli.dto.CambiarContrasenia;
 import proyecto.yollicalli.model.Usuario;
 import proyecto.yollicalli.service.UserService;
 
-@CrossOrigin(origins="https://dhyanaixchelverjanvargas.github.io/Proyecto-YolliCalli/")
+@CrossOrigin(origins="https://dhyanaixchelverjanvargas.github.io")
 @RestController
 @RequestMapping(path="/api/usuarios/") // Cambio de users a usuarios
 public class UserController {

@@ -16,7 +16,7 @@ import org.springframework.web.bind.annotation.RestController;
 import proyecto.yollicalli.model.PaymentMethod;
 import proyecto.yollicalli.service.PayMethodsService;
 
-@CrossOrigin(origins="https://dhyanaixchelverjanvargas.github.io/Proyecto-YolliCalli/")
+@CrossOrigin(origins="https://dhyanaixchelverjanvargas.github.io")
 @RestController
 @RequestMapping(path="/api/metodoDePago")
 public class PaymentMethodController {
